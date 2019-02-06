@@ -34,7 +34,7 @@ namespace ADActivities.Activities
         {
             ADProperty myProperty;
 
-            switch ()
+            switch (AuthenticationType)
             {
                 case ADAuthenticationType.Basic:
                     break;
