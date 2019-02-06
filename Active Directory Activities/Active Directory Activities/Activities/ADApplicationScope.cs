@@ -28,6 +28,20 @@ namespace ADActivities.Activities
 
         protected override void Execute(NativeActivityContext context)
         {
+            ADProperty myProperty;
+
+            throw new NotImplementedException();
+        }
+
+        private void OnFaulted(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propogatedFrom)
+        {
+            //TODO
+            throw new NotImplementedException();
+        }
+
+        private void OnCompleted(NativeActivityContext context, ActivityInstance completedInstance)
+        {
+            //TODO
             throw new NotImplementedException();
         }
     }
