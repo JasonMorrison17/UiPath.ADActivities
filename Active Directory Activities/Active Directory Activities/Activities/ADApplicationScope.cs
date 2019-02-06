@@ -12,16 +12,20 @@ namespace ADActivities.Activities
     class ADApplicationScope : NativeActivity
     {
         [Browsable(false)]
-        public ActivityAction<T> Body { get; set; }
+        public ActivityAction<ADProperty> Body { get; set; }
 
         [Category("Input")]
-        public InArgument<string> ConnectionString { get; set; }
+        public InArgument<string> LDAPString { get; set; }
+
+        [Category("Input")]
+        public InArgument<string >AuthenticationType { get; set; }
 
         public ADApplicationScope()
         {
-            Body = new ActivityAction<T>
+            AuthenticationType = 0;
+            Body = new ActivityAction<ADProperty>
             {
-                Argument = new DelegateInArgument<T>("ConnectionString"),
+                Argument = new DelegateInArgument<ADProperty>("LDAPString"),
                 Handler = new Sequence { DisplayName = "Do" }
             };
         }
@@ -29,6 +33,17 @@ namespace ADActivities.Activities
         protected override void Execute(NativeActivityContext context)
         {
             ADProperty myProperty;
+
+            switch ()
+            {
+                case ADAuthenticationType.Basic:
+                    break;
+                case ADAuthenticationType.Secure:
+                    break;
+                default:
+
+                    break;
+            }
 
             throw new NotImplementedException();
         }
