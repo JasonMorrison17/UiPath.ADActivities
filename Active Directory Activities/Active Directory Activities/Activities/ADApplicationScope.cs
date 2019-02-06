@@ -18,7 +18,7 @@ namespace ADActivities.Activities
         public InArgument<string> LDAPString { get; set; }
 
         [Category("Input")]
-        public InArgument<string >AuthenticationType { get; set; }
+        public ADAuthenticationType AuthenticationType { get; set; }
 
         public ADApplicationScope()
         {
