@@ -1,0 +1,6 @@
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\bin\Debug\Active Directory Activities.dll
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\bin\Debug\Active Directory Activities.pdb
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\obj\Debug\ADActivities.csprojAssemblyReference.cache
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\obj\Debug\ADActivities.csproj.CoreCompileInputs.cache
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\obj\Debug\Active Directory Activities.dll
+C:\Users\Jason Morrison\Documents\GitHub\UiPath.ADActivities\Active Directory Activities\Active Directory Activities\obj\Debug\Active Directory Activities.pdb
