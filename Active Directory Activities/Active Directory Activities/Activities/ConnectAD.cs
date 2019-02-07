@@ -21,11 +21,26 @@ namespace ADActivities.Activities
 
         protected override void Execute(NativeActivityContext context)
         {
-            var stringIn = StringArgument.Get(context);
-            var result = stringIn + "_" + stringIn;
-            //System.IO.File.WriteAllText(@"C:\WriteText.txt", "Log: " + StringArgument);
-            //System.IO.File.WriteAllText(@"C:\WriteText.txt", "Log: " + result);
-            ResultString.Set(context, result);
+            GetDirectoryEntry();
         }
+
+        //public static DirectoryEntry GetDirectoryEntry()
+        //{
+        //    DirectoryEntry de = new DirectoryEntry();
+        //    de.Path = "LDAP://172.20.59.55/CN=Orch1;DC=Peronsal.UiPath";
+        //    de.Username = @"";
+        //    de.Password = "samplepassword";
+        //    return de;
+        //}
+
+        public static DirectoryEntry GetDirectoryEntry()
+        {
+            DirectoryEntry de = new DirectoryEntry();
+            de.Path = "LDAP://ldap.forumsys.com:389/CN=admin;DC=example";
+            de.AuthenticationType = AuthenticationTypes.Secure;
+            return de;
+        }
+
+
     }
 }
