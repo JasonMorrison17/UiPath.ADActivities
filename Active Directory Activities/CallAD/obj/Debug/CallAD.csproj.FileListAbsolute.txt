@@ -1,0 +1,10 @@
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\obj\Debug\CallAD.csprojAssemblyReference.cache
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\obj\Debug\CallAD.csproj.CoreCompileInputs.cache
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\bin\Debug\CallAD.exe.config
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\bin\Debug\CallAD.exe
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\bin\Debug\CallAD.pdb
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\bin\Debug\Active Directory Activities.dll
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\bin\Debug\Active Directory Activities.pdb
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\obj\Debug\CallAD.csproj.CopyComplete
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\obj\Debug\CallAD.exe
+C:\Users\Mario Atallah\Documents\UiPath\Projects\UiPath.ADActivities\Active Directory Activities\CallAD\obj\Debug\CallAD.pdb
