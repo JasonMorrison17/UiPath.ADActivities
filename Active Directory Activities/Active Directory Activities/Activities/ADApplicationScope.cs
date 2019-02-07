@@ -14,17 +14,18 @@ namespace ADActivities.Activities
         [Browsable(false)]
         public ActivityAction<ADProperty> Body { get; set; }
 
-        [Category("LDAP Information")]
-        [RequiredArgument]
-        public InArgument<string> LDAPPath { get; set; }
+        //[Category("LDAP Information")]
+        //[RequiredArgument]
+        //public InArgument<string> LDAPPath { get; set; }
 
-        [Category("AD Crendentials")]
-        public InArgument<string> UserName { get; set; }
+        //[Category("AD Crendentials")]
+        //public InArgument<string> UserName { get; set; }
 
-        [Category("AD Crendentials")]
-        public InArgument<string> Password { get; set; }
+        //[Category("AD Crendentials")]
+        //public InArgument<string> Password { get; set; }
 
         [Category("Input")]
+        [RequiredArgument]
         public InArgument<string> LDAPString { get; set; }
 
         [Category("Input")]
@@ -38,6 +39,13 @@ namespace ADActivities.Activities
                 Argument = new DelegateInArgument<ADProperty>("LDAPString"),
                 Handler = new Sequence { DisplayName = "Do" }
             };
+        }
+
+        protected override void CacheMetadata(NativeActivityMetadata metadata)
+        {
+            base.CacheMetadata(metadata);
+
+
         }
 
         protected override void Execute(NativeActivityContext context)

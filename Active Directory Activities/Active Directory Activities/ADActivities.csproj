@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ADApplicationScope.cs" />
+    <Compile Include="Activities\ConnectAD.cs" />
     <Compile Include="ADProperty.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
